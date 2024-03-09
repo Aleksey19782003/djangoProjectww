@@ -1,6 +1,7 @@
 from django.contrib import admin
 
-from app.model import Users
+from app.models import ModelAlex, ModelAlexImg, ModelReg
 
-# Register your models here.
-admin.site.register(Users)
+admin.site.register(ModelAlex)
+admin.site.register(ModelAlexImg)
+admin.site.register(ModelReg)
