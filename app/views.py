@@ -7,7 +7,7 @@ from django.views.decorators.csrf import csrf_exempt
 from app.forms import ImageForm
 from app.models import ModelReg
 
-
+#hj
 @csrf_exempt
 def index(request):
     if request.method == 'POST':pass
